@@ -1,0 +1,46 @@
+body{
+    background-color: #014E56;
+}
+
+.logo{
+    width: 100px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: #F67E7E;
+}
+
+p{
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    border-color: white;
+    width: 5rem;
+    height: 2rem;
+    color: #014E56;
+    font-weight: bold;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+}
+
+address{
+    background-color: #002529;
+}
+
+.flex-row{
+    display: flex;
+    gap: 2rem;
+}
+
+article{
+    display: flex;
+}

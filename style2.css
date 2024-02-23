@@ -12,11 +12,83 @@ body{
   color: white;
 }
 
+header{
+  margin: 2rem 2rem 10rem 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about{
+  margin-bottom: 1rem;
+}
+
+.logo{
+  width: 100px;
+  margin-bottom: 3rem;
+  margin-right:auto;
+  margin-left: 2rem;
+}
+
+
+.num{
+  color: white;
+}
+
+.logo2{
+  width: 100px;
+  margin: 4rem 0 2rem 0;
+}
+
 .avatar{
     width: 100px;
     border-radius: 50%;
     border-color: #C4FFFE;
     border: solid;
+}
+
+.paddress{
+  padding-bottom: 5rem;
+}
+
+.ptext{
+  width: 80%;
+  text-align: center;
+}
+
+article{
+  background-color: #012F34 ;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.personage-section{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color:#004047;
+  padding-bottom: 4rem;
+}
+
+address{
+  background-color: #002529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img{
+  width: 20px;
+}
+
+.namep{
+  color: #79C8C7;
 }
 
 li{
@@ -28,5 +100,87 @@ li{
 }
 
 .img-li{
-        width: 200px;
+        width: 150px;
+}
+
+.logo-h3{
+  font-size: x-large;
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.lien{
+  color: #012F34;
+  border: solid;
+  border-radius: 30px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.about-p{
+  text-align: center;
+  width: 80%;
+}
+
+.h3-3{
+  text-align: center;
+  font-size: x-large;
+  padding-top: 5rem;
+}
+
+.btn-avatar{
+  border-radius: 70%;
+  border-color:#F67E7E;
+  background-color: #F67E7E;
+}
+
+.list{
+  background-color:#012F34 ;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.avatar-bg{
+  background-color: #F67E7E;
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.h3-a{
+  color: #012F34;
+  font-size: xx-large;
+  width: 80%;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.finalsection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F67E7E;
+}
+
+
+
+@media screen and (min-width: 640px){
+
+  .personage-section{
+    display: grid;
+    grid-template-columns: 60px 60px;
+    /* justify-content: center; */
+    gap: 12rem;
+  }
+
+  .article-section{
+    width: 15rem;
+    height: 15rem;
+  }
+
+
 }
