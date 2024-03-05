@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <meta name="description" content="page2 about"><title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <meta name="description" content="page2 about">
+    <title>My Team</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="img/logo.svg" alt="">
+        <div class="demi-nav">
+            <img class="logo" src="img/logo.svg" alt="">
+  
+            <button id="btn-burger" class="burger-btn"><img class="burger-img" src="img/icon-hamburger.svg" alt=""></button>
+        </div>
+  
+        <div id="divmenu" class="MenuBurgerDiv">
+              <img id="close" class="closeBurger" src="img/icon-close.svg" alt="">
+              
+          <nav>
+              <ul>
+                <li><a id="menuburger" class="MenuBurger" href="/home.html">home</a></li>
+                <li><a id="menuburger" class="MenuBurger" href="/about.html">about</a></li>
+                <li><a id="menuburger2" class="MenuBurger2" href="contact.html">contact us</a></li>
+              </ul>
+             
+          </nav>
+        </div>
+  
+  
 
 
         <h2 class="about">About</h2>
@@ -18,9 +38,10 @@
     <main> 
         
         
-        <h3 class="h3-3">Meet the directors</h3>
+        
         <section class="personage-section">
            
+        <h3 class="h3-3">Meet the directors</h3>
 
             <article class="article-section">
                 <img class="avatar" src="img/avatar-nikita.jpg" alt="">
@@ -83,12 +104,14 @@
     </main>
     <footer>
         <address>
-        <div>
+
             <img class="logo2" src="img/logo.svg" alt="">
-            <p>home</p>
-            <p>about</p>
-            
-        </div>
+           
+            <div class="flex-row">
+                <p>home</p>
+                <p>about</p>
+            </div> 
+
         <section class="address-s">
           <p>987  Hillcrest Lane</p>
           <p>Irvine, CA</p>

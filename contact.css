@@ -1,31 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+
 body{
+    font-family: livvic;
     background-color: #014E56;
+    color: white;
 }
 
 .logo{
     width: 100px;
 }
 
-h2{
-    color: white;
-}
-
 h3{
     color: #F67E7E;
 }
 
-p{
-    color: white;
-}
-
-button{
+.submit{
     border-radius: 20px;
     border-color: white;
-    width: 5rem;
-    height: 2rem;
+    width: 6rem;
+    height: 2.5rem;
     color: #014E56;
     font-weight: bold;
+    margin: 1rem 1rem 3rem;
 }
+
+ul{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  
+  .burger-btn{
+    background: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .MenuBurgerDiv{
+    width: 15rem;
+    height: 100vh;  
+    background-color:#2C6269;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: 500ms ease-out;
+    display:none;
+    color: white;
+    right: 0;
+  }
+  
+  .closeBurger{
+    margin: 3rem 1rem 2rem 13rem;
+  }
+  
+  .demi-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12rem;
+    margin-top:50px;
+  }
+  
+  .MenuBurger2{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    border: solid;
+    border-radius: 25px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+  
+  .MenuBurger{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
 
 .input-section{
     display: flex;
@@ -34,7 +93,12 @@ button{
 
 address{
     background-color: #002529;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
 
 .flex-row{
     display: flex;
@@ -43,4 +107,9 @@ address{
 
 article{
     display: flex;
+}
+
+input{
+    background: none;
+    padding: 1rem;
 }

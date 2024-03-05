@@ -6,64 +6,32 @@
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="myteam-multi-page-website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>My Team</title>
   </head>
   <body>
     <header>
+      <div class="demi-nav">
+          <img class="logo" src="img/logo.svg" alt="">
 
-      <img class="logo" src="img/logo.svg" alt="">
+          <button id="btn-burger" class="burger-btn"><img class="burger-img" src="img/icon-hamburger.svg" alt=""></button>
+      </div>
 
-      <div id="div" class="MenuBurgerDiv">
-            <img class="closeBurger" src="img/icon-close.svg" alt="">
+      <div id="divmenu" class="MenuBurgerDiv">
+            <img id="close" class="closeBurger" src="img/icon-close.svg" alt="">
             
         <nav>
             <ul>
               <li><a id="menuburger" class="MenuBurger" href="/home.html">home</a></li>
               <li><a id="menuburger" class="MenuBurger" href="/about.html">about</a></li>
-              
+              <li><a id="menuburger2" class="MenuBurger2" href="contact.html">contact us</a></li>
             </ul>
-            <a id="menuburger2" class="MenuBurger2" href="contact.html">contact us</a>
+           
         </nav>
-            <img id="closeburger" src="img/icon-hamburger.svg" alt="">
       </div>
-
-
-
-
-            <!-- <nav>
-      <img class="logo" src="img/logo.svg" alt="">
-      <a class="lien-nav " href="">home</a>
-      <a class="lien-nav " href="">about</a>
-      <a class="lien-nav lien" href="">contact us</a>
-    </nav> -->
-
-    
-      <!-- <div id="menu">
-        <a id="close" href="">x</a>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a class="contact-a" href="contact.html">contact us</a></li>
-        </ul>
-      </div>
-
-      <a id="open">
-        <span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </a> -->
 
         <h2 class="h2-header">Find the best <span class="talent-span">talent</span></h2>
         <p class="p-header">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
 
-
-
-
-
-        
-    
     </header>
 
     <main>
@@ -74,7 +42,7 @@
         
         <h3 class="build-h3">Build & manage distributed teams like no one else.</h3>
       
-        <article class="article-s">
+      <article class="article-s">
         <img class="icon-img" src="img/icon-person.svg" alt="">
         <h4 class="avatar-h4">Experienced Individuals</h4>
         <p>Our network is made up of highly experienced professionals who are passionate about what they do.</p>
@@ -93,7 +61,7 @@
       </article>
       </section>
 
-      <section class="end-s">
+      <section class="end-section">
         <h3 class="h3-s">Delivering real results for top companies. Some of our <span class="success-span">success stories.</span></h3>
         
       <article class="article-s">
@@ -118,7 +86,7 @@
 
       <section class="finalsection">
         <h3 class="h3-finalsection">Ready to get started?</h3>
-        <a class="lien">contact us</a>
+        <a href="contact.html" class="lien">contact us</a>
       </section>
     </main>
 

@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
     <meta name="description" content="page3 contact">
-    <title>Document</title>
+    <title>My Team</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="img/logo.svg" alt="logo">
+        <div class="demi-nav">
+            <img class="logo" src="img/logo.svg" alt="">
+  
+            <button id="btn-burger" class="burger-btn"><img class="burger-img" src="img/icon-hamburger.svg" alt=""></button>
+        </div>
+  
+        <div id="divmenu" class="MenuBurgerDiv">
+              <img id="close" class="closeBurger" src="img/icon-close.svg" alt="">
+              
+          <nav>
+              <ul>
+                <li><a id="menuburger" class="MenuBurger" href="/home.html">home</a></li>
+                <li><a id="menuburger" class="MenuBurger" href="/about.html">about</a></li>
+                <li><a id="menuburger2" class="MenuBurger2" href="contact.html">contact us</a></li>
+              </ul>
+             
+          </nav>
+        </div>
+  
+  
     </header>
     <main>
         <section>
@@ -30,14 +49,18 @@
             </article>
         </section>
         <section class="input-section">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            
+            
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email Address²">
+            <input type="text" placeholder="Company Name&">
+            <input type="text" placeholder="Title">
+            <input type="text" placeholder="Message">
 
-            <button>submit</button>
         </section>
+
+            <button class="submit">submit</button>
+
     </main>
     <footer>
         <address>
@@ -54,9 +77,11 @@
           <p>Irvine, CA</p>
           <p>California 92714</p>  
           <a href="949-833-7432">Call Us :949-833-7432</a> 
-          <img src="img/icon-facebook.svg" alt="">
-          <img src="img/icon-pinterest.svg" alt="">
-          <img src="img/icon-twitter.svg" alt="">
+             <div>
+                <img src="img/icon-facebook.svg" alt="">
+                <img src="img/icon-pinterest.svg" alt="">
+                <img src="img/icon-twitter.svg" alt="">
+             </div>
           <p class="pp">Copyright 2020. All Rights Reserved</p>
           </address>
     </footer>
